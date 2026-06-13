@@ -1,3 +1,5 @@
+![FIFA World Cup 2026 Dashboard](wc2026_cover.png)
+
 # ⚽ FIFA World Cup 2026 Live Dashboard
 
 🏆 **FIFA World Cup 2026 Live Dashboard**
