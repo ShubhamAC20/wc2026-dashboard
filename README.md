@@ -68,3 +68,68 @@ Then open the link shown in your terminal (usually http://localhost:8501).
 ---
 
 ## 📁 Project Structure
+
+wc2026-dashboard/
+
+│
+
+├── wc2026_dashboard.py     # Main Streamlit dashboard
+
+├── requirements.txt        # Dependencies
+
+├── README.md               # Project documentation
+
+├── .gitignore              # Ignores secrets file
+
+└── .streamlit/
+
+└── secrets.toml        # API keys (local only, never pushed)
+
+---
+
+## 💡 Insights
+
+- Live scores refresh every 60 seconds automatically
+- Group standings update in real-time as matches are played
+- AI predictor uses current tournament form and stats for each prediction
+- Venue map covers all 16 stadiums across 3 host nations
+- Goals per group chart dynamically highlights the most exciting group
+
+---
+
+## 🎓 Technical Highlights
+
+This project demonstrates end-to-end data engineering and visualization:
+
+- **Live API integration** with caching for performance optimization
+- **Real-time data transformation** from raw JSON to structured dashboard components
+- **AI integration** using Anthropic Claude for natural language match analysis
+- **Interactive visualizations** with Plotly including geo maps, bar charts and donut charts
+- **Custom CSS theming** with animations, flip cards and pulsing live indicators
+
+Ideal for demonstrating practical data analytics skills including API integration, real-time data handling, and AI-powered insights.
+
+---
+
+## 🌐 Future Enhancements
+
+- Add knockout bracket visualizer as tournament progresses
+- Integrate player-level stats and heatmaps
+- Add historical World Cup data for deeper comparisons
+- Mobile-optimized responsive layout
+- Push notifications for live match alerts
+
+---
+
+## ✨ Author
+
+**Shubham Acharya**
+Data Analyst | Power BI | SQL | Python | Streamlit
+📍 Based in India | Open to opportunities in Spain
+📫 [LinkedIn](https://www.linkedin.com/in/shubhamacharyaanalyst/) • [Portfolio](https://shubhamac20.github.io/portfolio) • [GitHub](https://github.com/ShubhamAC20)
+
+---
+
+## 🏁 License
+
+This project is open source under the MIT License — free to use, modify, and share with attribution.
